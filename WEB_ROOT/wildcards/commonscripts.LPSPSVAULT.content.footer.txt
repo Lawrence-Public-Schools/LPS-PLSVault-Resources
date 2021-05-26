@@ -9,45 +9,45 @@
 <table style="border: 1px solid black;">
 <thead style="border: 1px solid black;">
   <tr>
-    <th style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Folder Names&nbsp;&nbsp;&nbsp;</th>
-    <th style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Who has Access&nbsp;&nbsp;&nbsp;</th>
-    <th style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>File Naming&nbsp;&nbsp;&nbsp;</th>
+    <th style="border: 1px solid black;"><br>Folder Names</th>
+    <th style="border: 1px solid black;"><br>Who has Access</th>
+    <th style="border: 1px solid black;"><br>File Naming</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Confidential/Enrollment&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Prin,clerk,ap,rrios,liz,denise,nelson&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>Confidential/Enrollment</td>
+    <td style="border: 1px solid black;"><br>Prin,clerk,ap,rrios,liz,denise,nelson</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Confidential/Incidents-Discipline-Bullying-Restraints&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Prin,clerk,ap,rrios,liz,denise,nelson,mt,4directors&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>Confidential/Incidents-Discipline-Bullying-Restraints</td>
+    <td style="border: 1px solid black;"><br>Prin,clerk,ap,rrios,liz,denise,nelson,mt,4directors</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>English Learner Information&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>19-20 Access ISR&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>English Learner Information</td>
+    <td style="border: 1px solid black;"><br>Everyone</td>
+    <td style="border: 1px solid black;"><br>19-20 Access ISR</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Enrollment&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>Enrollment</td>
+    <td style="border: 1px solid black;"><br>Everyone</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Report Cards-Transcripts&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>19-20 Report Card&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>Report Cards-Transcripts</td>
+    <td style="border: 1px solid black;"><br>Everyone</td>
+    <td style="border: 1px solid black;"><br>19-20 Report Card</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Special Education&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>Special Education</td>
+    <td style="border: 1px solid black;"><br>Everyone</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>State Assessments&nbsp;&nbsp;&nbsp;</td>
-    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;"><br>State Assessments</td>
+    <td style="border: 1px solid black;"><br>Everyone</td>
     <td style="border: 1px solid black;"></td>
   </tr>
 </tbody>
