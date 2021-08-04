@@ -2,10 +2,8 @@
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
 <h2 class="toggle expanded" title="Click here to expand or collapse">LPS PSVault Resources</h2>
 <div id="LPSPSVaultResources" class=""><div class="row">
-<p>How to use Vault (Link Later)</p>
-<p><a target="_blank" href="https://drive.google.com/file/d/13eQtb8ZQSa8QRxe-E0sdxNCJbRDc6vQ-/view">MOU with the Lawrence Police Department</a></p>
-<p><a target="_blank" href="https://docs.google.com/document/d/1LPGaEAYGEP0WmhNra03C1YTPOogYZNCCdPK9JwjEVzE/view">SY20 Cumulative Folder Guidance</a></p>
-<p><a target="_blank" href="https://kb.lawrence.k12.ma.us/article.php?id=1082">PLSVault</a></p>
+<p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/office/LPS%20Student%20Record%20Procedures%205.11.21.pdf">LPS Student Record Procedures 5.11.21</a></p>
+<p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/office/How%20to%20Use%20PLSVault.pdf">How to Use PLSVault</a></p>
 <table style="border: 1px solid black;">
 <thead style="border: 1px solid black;">
   <tr>
