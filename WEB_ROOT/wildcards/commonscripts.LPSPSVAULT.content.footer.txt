@@ -1,4 +1,5 @@
 <!-- create a hidden table with added rows -->
+<script src="/scripts/tlistCustomization.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
 <h2 class="toggle expanded" title="Click here to expand or collapse">LPS PSVault Resources</h2>
 <div id="LPSPSVaultResources" class=""><div class="row">
@@ -53,6 +54,11 @@
 
 </div>
 </div>
+  <!-- Comment Form -->
+  <div class="box-round" id="demoComments">
+     ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,RELEASESTRING,USERID,USERSTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person of Person Receiving Record,UserID,Name and Position of Person Accessing - from UserID;type:html]
+        <div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
+    </div>
 </div>
 
 
@@ -69,7 +75,15 @@ if (location.href.indexOf("/admin/students/studentpages/plsvault_students.html")
       hideCollapseText($j(this));
       hideCollapseTarget($j(this));
    });
+   $j("#content-main > div.box-round > div#LPSPSVaultResources").after($j("div#LPS-PSVaultCustomhiddentable div#demoComments"));
+        var PurposeValues= {};
+        PurposeValues[' ']='';
+        PurposeValues['ADD']='Adding information to the student record';
+        PurposeValues['REQ']='Responding to a request for records';
+        PurposeValues['REV']='Reviewing student record';
+        PurposeValues['OTHER']='Other';
    $j("div#LPS-PSVaultCustomhiddentable").remove();
+   tlistText2DropDown('PURPOSE',PurposeValues);
 } else {}
 };
 
