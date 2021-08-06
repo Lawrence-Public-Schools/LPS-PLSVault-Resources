@@ -79,11 +79,10 @@ if (location.href.indexOf("/admin/students/studentpages/plsvault_students.html")
    });
    $j("#content-main > div.box-round > div#LPSPSVaultResources").after($j("div#LPS-PSVaultCustomhiddentable div#demoComments"));
         var PurposeValues= [];
-        PurposeValues.push(' ','');
-        PurposeValues.push('ADD','Adding information to the student record');
-        PurposeValues.push('REQ','Responding to a request for records');
-        PurposeValues.push('REV','Reviewing student record');
-        PurposeValues.push('OTHER','Other');
+        PurposeValues.push(['ADD','Adding information to the student record']);
+        PurposeValues.push(['REQ','Responding to a request for records']);
+        PurposeValues.push(['REV','Reviewing student record']);
+        PurposeValues.push(['OTHER','Other']);
    $j("div#LPS-PSVaultCustomhiddentable").remove();
    tlistText2DropDownValNamePair('PURPOSE',PurposeValues);
 } else {}
