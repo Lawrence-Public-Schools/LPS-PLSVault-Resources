@@ -1,5 +1,6 @@
 <!-- create a hidden table with added rows -->
 <script src="/scripts/tlistCustomization.js"></script>
+<script src="/admin/javascript/LPS-PSVault.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
 <h2 class="toggle expanded" title="Click here to expand or collapse">LPS PSVault Resources</h2>
 <div id="LPSPSVaultResources" class=""><div class="row">
@@ -56,27 +57,3 @@
 </div>
 <div id="LPS-plsvault_students"></div>
 </div>
-
-
-<script type="text/javascript">
-    function AddLPSPSVaultResources() {
-   $j("#content-main > div.box-round").prepend($j("div#LPS-PSVaultCustomhiddentable h2"));
-   $j("#content-main > div.box-round").prepend($j("div#LPS-plsvault_students"));
-   $j('#content-main > div.box-round > h2:first').each(function(){
-      hideCollapseClasses($j(this));
-      hideCollapseText($j(this));
-      hideCollapseTarget($j(this));
-   });
-   $j("#content-main > div.box-round").prepend($j("div#LPS-PSVaultCustomhiddentable div#LPSPSVaultResources"));
-   $j("div#LPS-PSVaultCustomhiddentable").remove();
-   $j("div#LPS-plsvault_students").append('<iframe src="/admin/students/studentpages/LPS-plsvault_students.html?frn=~(studentfrn)" frameborder="0" height="200" width="600"></iframe>');
-    };
-
-    function RemoveLPSPSVaultResources() {
-        $j("div#LPS-PSVaultCustomhiddentable").remove();
-    };
-
-    if ($testURL.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
-        $j(document).ready(AddLPSPSVaultResources);
-    } else { $j(document).ready(RemoveLPSPSVaultResources);}
-</script>
