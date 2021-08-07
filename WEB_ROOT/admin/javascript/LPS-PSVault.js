@@ -1,19 +1,20 @@
 function AddLPSPSVaultResources() {
-   $j("#content-main > div.box-round").prepend($j("div#LPS-PSVaultCustomhiddentable h2"));
-   $j("#content-main > div.box-round").prepend($j("div#LPS-plsvault_students"));
-   $j('#content-main > div.box-round > h2:first').each(function(){
+   $j("div#LPS-PSVaultCustomhiddentable h2").insertBefore("#content-main > div.box-round")
+   $j("div#LPSPSVaultResources").insertBefore("#content-main > div.box-round")
+      $j('div#content-main > h2:first').each(function(){
       hideCollapseClasses($j(this));
       hideCollapseText($j(this));
       hideCollapseTarget($j(this));
    });
-   $j("#content-main > div.box-round").prepend($j("div#LPS-PSVaultCustomhiddentable div#LPSPSVaultResources"));
+   $j("#content-main > div.box-round").insertBefore("div#LPS-plsvault_students")
    $j("div#LPS-PSVaultCustomhiddentable").remove();
-   $j("div#LPS-plsvault_students").append('<iframe src="/admin/students/studentpages/LPS-plsvault_students.html?frn=~(studentfrn)" frameborder="0" height="200" width="600"></iframe>');
-};
+   $Vframe = '<div id="LPSPSVaulttarget"><iframe id="LPSPSVaultlog" src="/admin/students/studentpages/LPS-plsvault_students.html?frn='+$LPSPSVault+'" frameborder="0"></iframe></div>'
+   $j("div#LPSPSVaultResources").after($Vframe);
+}
 
 function RemoveLPSPSVaultResources() {
         $j("div#LPS-PSVaultCustomhiddentable").remove();
-};
+}
 
 if ($testURL.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
         $j(document).ready(AddLPSPSVaultResources);

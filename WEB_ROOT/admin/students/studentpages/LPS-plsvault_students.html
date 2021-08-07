@@ -6,17 +6,16 @@
 
 <title>PLS Vault Access Log</title>
 ~[wc:commonscripts]
+<script src="/scripts/tlistCustomization.js"></script>
 <link href="/images/css/screen.css" rel="stylesheet" media="screen">
 <link href="/images/css/print.css" rel="stylesheet" media="print">
 </head>
 
 <body>
-~[wc:title_student_begin_css]~[wc:title_student_end_css]
 
 <!-- start of content and bounding box -->
-<div class="box-round">
 <!-- Comment Form -->
-<div class="box-round" id="demoComments">
+<div class="box-round" id="demoComments" style="min-width: 600px; min-height: 100px;">
      ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,RELEASESTRING,USERSTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person of Person Receiving Record,Name and Position of Person Accessing;type:html]
      <script type="text/javascript">
         var PurposeValues= [];
@@ -26,12 +25,10 @@
         PurposeValues.push(['OTHER','Other']);
         tlistText2DropDownValNamePair('PURPOSE',PurposeValues);
      </script>
-        <div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
 </div>
-</div>
+<div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
 <!-- end of content of bounding box -->
 
-~[wc:admin_footer_frame_css]
 
 
 </body>
