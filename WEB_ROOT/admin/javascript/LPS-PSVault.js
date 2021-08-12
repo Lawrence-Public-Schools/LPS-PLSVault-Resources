@@ -16,7 +16,7 @@ function RemoveLPSPSVaultResources() {
         $j("div#LPS-PSVaultCustomhiddentable").remove();
 }
 
-if ($testURL.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
+if (location.href.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
         $j(document).ready(AddLPSPSVaultResources);
 } else {
     $j(document).ready(RemoveLPSPSVaultResources);
