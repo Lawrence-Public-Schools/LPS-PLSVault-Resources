@@ -1,6 +1,6 @@
 <!-- create a hidden table with added rows -->
 <script type="text/javascript">
-var $LPSPSVault = ~(studentfrn);
+var $LPSPSVault = "~(studentfrn)";
 </script>
 <style>
         div#LPSPSVaulttarget {
