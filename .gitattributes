@@ -5,3 +5,4 @@
 /.gitignore export-ignore
 /dists export-ignore
 /release.bat export-ignore
+/VaultResources.code-workspace export-ignore
