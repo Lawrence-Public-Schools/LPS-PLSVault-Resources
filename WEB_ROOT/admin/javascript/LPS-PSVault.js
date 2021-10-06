@@ -1,10 +1,10 @@
 function AddLPSPSVaultResources() {
    $j("div#LPS-PSVaultCustomhiddentable h2").insertBefore("#content-main > div.box-round")
    $j("div#LPSPSVaultResources").insertBefore("#content-main > div.box-round")
-      $j('div#content-main > h2:first').each(function(){
-      hideCollapseClasses($j(this));
-      hideCollapseText($j(this));
-      hideCollapseTarget($j(this));
+   $j('div#content-main > h2:first').each(function(){
+       hideCollapseClasses($j(this));
+       hideCollapseText($j(this));
+       hideCollapseTarget($j(this));
    });
    $j("#content-main > div.box-round").insertBefore("div#LPS-plsvault_students")
    $j("div#LPS-PSVaultCustomhiddentable").remove();
@@ -13,11 +13,11 @@ function AddLPSPSVaultResources() {
 }
 
 function RemoveLPSPSVaultResources() {
-        $j("div#LPS-PSVaultCustomhiddentable").remove();
+    $j("div#LPS-PSVaultCustomhiddentable").remove();
 }
 
 if (location.href.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
-        $j(document).ready(AddLPSPSVaultResources);
+    $j(document).ready(AddLPSPSVaultResources);
 } else {
     $j(document).ready(RemoveLPSPSVaultResources);
 }
