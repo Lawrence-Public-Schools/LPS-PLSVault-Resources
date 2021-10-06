@@ -18,6 +18,7 @@
     height: 100%;
     border: none;
   }
+  
   #LPSVaultHeader.expanded {
     background-color: rgb(163, 191, 204);
   }
@@ -35,7 +36,7 @@
 <script src="/admin/javascript/LPS-PSVault.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
   <h2 class="toggle expanded" id="LPSVaultHeader"  title="Click here to expand or collapse">LPS PSVault Resources <small>(Click to Expand/Collapse)</small></h2>
-  <div id="LPSPSVaultResources" class="">
+  <div id="LPSPSVaultResources">
     <div class="row">
       <!-- <p><a target="_blank" href="https://drive.google.com/file/d/13eQtb8ZQSa8QRxe-E0sdxNCJbRDc6vQ-/view">MOU with the Lawrence Police Department</a></p> -->
       <p><u>How to use Vault (Link Later)</u></p>
