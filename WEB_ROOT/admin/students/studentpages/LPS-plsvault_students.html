@@ -3,7 +3,6 @@
 <!-- start right frame -->
 <head>
 
-
 <title>PLS Vault Access Log</title>
 ~[wc:commonscripts]
 <script src="/scripts/tlistCustomization.js"></script>
@@ -25,21 +24,20 @@
 <!-- Comment Form -->
 <form action="/admin/changesrecorded.white.html" method="POST">
 <div class="box-round" id="demoComments" style="min-width: 600px; min-height: 100px;">
-     ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,USERSTRING,RELEASESTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person Accessing,Name and Position of Person Receiving Record;type:html]
-     <script type="text/javascript">
-        var PurposeValues= [];
-        PurposeValues.push(['ADD','Adding information to the student record']);
-        PurposeValues.push(['REQ','Responding to a request for records']);
-        PurposeValues.push(['REV','Reviewing student record']);
-        PurposeValues.push(['OTHER','Other']);
-        tlistText2DropDownValNamePair('PURPOSE',PurposeValues);
-        tlistText2StaticTextAllowNew("ACCESSDATE");
-        tlistText2StaticTextAllowNew("ACCESSRECORD");
-        tlistText2StaticTextAllowNew("PURPOSE");
-        tlistText2StaticTextAllowNew("USERSTRING");
-        tlistText2StaticTextAllowNew("RELEASESTRING");
-        
-     </script>
+  ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,USERSTRING,RELEASESTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person Accessing,Name and Position of Person Receiving Record;type:html]
+  <script type="text/javascript">
+    var PurposeValues= [];
+    PurposeValues.push(['ADD','Adding information to the student record']);
+    PurposeValues.push(['REQ','Responding to a request for records']);
+    PurposeValues.push(['REV','Reviewing student record']);
+    PurposeValues.push(['OTHER','Other']);
+    tlistText2DropDownValNamePair('PURPOSE',PurposeValues);
+    tlistText2StaticTextAllowNew("ACCESSDATE");
+    tlistText2StaticTextAllowNew("ACCESSRECORD");
+    tlistText2StaticTextAllowNew("PURPOSE");
+    tlistText2StaticTextAllowNew("USERSTRING");
+    tlistText2StaticTextAllowNew("RELEASESTRING");
+  </script>
 </div>
 <div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
 </form>
