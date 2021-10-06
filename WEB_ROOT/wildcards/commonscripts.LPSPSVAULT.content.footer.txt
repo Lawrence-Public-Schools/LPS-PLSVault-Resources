@@ -2,53 +2,53 @@
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
 <h2 class="toggle expanded" title="Click here to expand or collapse">LPS PSVault Resources</h2>
 <div id="LPSPSVaultResources" class=""><div class="row">
-<p><u>How to use Vault (Link Later)</u></p>
-<p><u>LPS Student Record Procedures 5.11.21 (Link Later)</u>></p>
 <!-- <p><a target="_blank" href="https://drive.google.com/file/d/13eQtb8ZQSa8QRxe-E0sdxNCJbRDc6vQ-/view">MOU with the Lawrence Police Department</a></p> -->
+<p><u>How to use Vault (Link Later)</u></p>
+<p><u>LPS Student Record Procedures 5.11.21 (Link Later)</u></p>
 <p><a target="_blank" href="https://docs.google.com/document/d/1LPGaEAYGEP0WmhNra03C1YTPOogYZNCCdPK9JwjEVzE/view">SY20 Cumulative Folder Guidance</a></p>
 <p><a target="_blank" href="https://kb.lawrence.k12.ma.us/article.php?id=1082">PLSVault</a></p>
 <table style="border: 1px solid black;">
 <thead style="border: 1px solid black;">
   <tr>
-    <th style="border: 1px solid black;"><br>Folder Names</th>
-    <th style="border: 1px solid black;"><br>Who has Access</th>
-    <th style="border: 1px solid black;"><br>File Naming</th>
+    <th style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Folder Names&nbsp;&nbsp;&nbsp;</th>
+    <th style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Who has Access&nbsp;&nbsp;&nbsp;</th>
+    <th style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>File Naming&nbsp;&nbsp;&nbsp;</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td style="border: 1px solid black;"><br>Confidential/Enrollment</td>
-    <td style="border: 1px solid black;"><br>Prin,clerk,ap,rrios,liz,denise,nelson</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Confidential/Enrollment&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Prin,clerk,ap,rrios,liz,denise,nelson&nbsp;&nbsp;&nbsp;</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;"><br>Confidential/Incidents-Discipline-Bullying-Restraints</td>
-    <td style="border: 1px solid black;"><br>Prin,clerk,ap,rrios,liz,denise,nelson,mt,4directors</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Confidential/Incidents-Discipline-Bullying-Restraints&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Prin,clerk,ap,rrios,liz,denise,nelson,mt,4directors&nbsp;&nbsp;&nbsp;</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;"><br>English Learner Information</td>
-    <td style="border: 1px solid black;"><br>Everyone</td>
-    <td style="border: 1px solid black;"><br>19-20 Access ISR</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>English Learner Information&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>19-20 Access ISR&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;"><br>Enrollment</td>
-    <td style="border: 1px solid black;"><br>Everyone</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Enrollment&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;"><br>Report Cards-Transcripts</td>
-    <td style="border: 1px solid black;"><br>Everyone</td>
-    <td style="border: 1px solid black;"><br>19-20 Report Card</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Report Cards-Transcripts&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>19-20 Report Card&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;"><br>Special Education</td>
-    <td style="border: 1px solid black;"><br>Everyone</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Special Education&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
     <td style="border: 1px solid black;"></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;"><br>State Assessments</td>
-    <td style="border: 1px solid black;"><br>Everyone</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>State Assessments&nbsp;&nbsp;&nbsp;</td>
+    <td style="border: 1px solid black;">&nbsp;&nbsp;&nbsp;<br>Everyone&nbsp;&nbsp;&nbsp;</td>
     <td style="border: 1px solid black;"></td>
   </tr>
 </tbody>
