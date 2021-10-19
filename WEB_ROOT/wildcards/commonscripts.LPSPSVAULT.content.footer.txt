@@ -39,7 +39,6 @@
   .display-true {
     display: inline-block;
   }
-
 </style>
 <script src="/admin/javascript/LPS-PSVault.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
@@ -58,19 +57,7 @@
     </div>
   </div>
 </div>
-<script>
-  function toggleVAT() {
-    let VAT = document.getElementById('lpsVAT');
-    if (VAT.style.display === "none") {
-      VAT.style.display = "inline-block";
-      document.getElementById('VATLink').innerHTML = "Vault Access Table <i>(Click to hide)</i>";
-    } else {
-      VAT.style.display = "none";
-      document.getElementById('VATLink').innerHTML = "Vault Access Table <i>(Click to show)</i>";
-    }
-    return;  
-  }
-</script>
+
 <!-- STOCKPILING OLD LINKS (just in case)~
   <p><a target="_blank" href="https://drive.google.com/file/d/13eQtb8ZQSa8QRxe-E0sdxNCJbRDc6vQ-/view">MOU with the Lawrence Police Department</a></p>
   <p><a target="_blank" href="https://docs.google.com/document/d/1LPGaEAYGEP0WmhNra03C1YTPOogYZNCCdPK9JwjEVzE/view">SY20 Cumulative Folder Guidance</a></p> 

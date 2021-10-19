@@ -1,3 +1,14 @@
+function toggleVAT() {
+  let VAT = document.getElementById('lpsVAT');
+  if (VAT.style.display === "none") {
+    VAT.style.display = "inline-block";
+    document.getElementById('VATLink').innerHTML = "Vault Access Table <i>(Click to hide)</i>";
+  } else {
+    VAT.style.display = "none";
+    document.getElementById('VATLink').innerHTML = "Vault Access Table <i>(Click to show)</i>";
+  }
+}
+
 function AddLPSPSVaultResources() {
    $j("div#LPS-PSVaultCustomhiddentable h2").insertBefore("#content-main > div.box-round")
    $j("div#LPSPSVaultResources").insertBefore("#content-main > div.box-round")
