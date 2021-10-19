@@ -18,7 +18,7 @@
     height: 100%;
     border: none;
   }
-  
+
   #LPSVaultHeader.expanded {
     background-color: rgb(163, 191, 204);
   }
@@ -32,6 +32,14 @@
   #LPSVaultTable * {
       padding: 10px;
   }
+
+  embed {
+    display: none;
+  }
+  .display-true {
+    display: inline-block;
+  }
+
 </style>
 <script src="/admin/javascript/LPS-PSVault.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
@@ -42,56 +50,27 @@
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/lps/lpsdistrictpolicies/LPS%20Student%20Records%20Where%20and%20Who.pdf">LPS Student Records: Where & Who</a>"
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/office/How%20to%20Use%20PLSVault%20-%20Admin%20Portal.pdf">How to use Vault (Admin Portal)</a></p>
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/teacher/How%20to%20Use%20PLSVault%20-%20Teacher%20Portal.pdf">How to use Vault (Teacher Portal)</a></p>
-      <table id="LPSVaultTable">
-        <thead>
-          <tr>
-            <th>Folder Names</th>
-            <th>Who has Access</th>
-            <th>File Naming</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Confidential/Enrollment</td>
-            <td>Prin,clerk,ap,rrios,liz,denise,nelson</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Confidential/Incidents-Discipline-Bullying-Restraints</td>
-            <td>Prin,clerk,ap,rrios,liz,denise,nelson,mt,4directors</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>English Learner Information</td>
-            <td>Everyone</td>
-            <td>19-20 Access ISR</td>
-          </tr>
-          <tr>
-            <td>Enrollment</td>
-            <td>Everyone</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Report Cards-Transcripts</td>
-            <td>Everyone</td>
-            <td>19-20 Report Card</td>
-          </tr>
-          <tr>
-            <td>Special Education</td>
-            <td>Everyone</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>State Assessments</td>
-            <td>Everyone</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
+      <p>
+        <a id="VATLink" href="javascript:toggleVAT()">Vault Access Table <i>(Click to show)</i></a>
+        <embed id="lpsVAT" src="/admin/images/VaultAccess.pdf" width="1200" height="600">
+      </p>
+      
     </div>
   </div>
 </div>
-
+<script>
+  function toggleVAT() {
+    let VAT = document.getElementById('lpsVAT');
+    if (VAT.style.display === "none") {
+      VAT.style.display = "inline-block";
+      document.getElementById('VATLink').innerHTML = "Vault Access Table <i>(Click to hide)</i>";
+    } else {
+      VAT.style.display = "none";
+      document.getElementById('VATLink').innerHTML = "Vault Access Table <i>(Click to show)</i>";
+    }
+    return;  
+  }
+</script>
 <!-- STOCKPILING OLD LINKS (just in case)~
   <p><a target="_blank" href="https://drive.google.com/file/d/13eQtb8ZQSa8QRxe-E0sdxNCJbRDc6vQ-/view">MOU with the Lawrence Police Department</a></p>
   <p><a target="_blank" href="https://docs.google.com/document/d/1LPGaEAYGEP0WmhNra03C1YTPOogYZNCCdPK9JwjEVzE/view">SY20 Cumulative Folder Guidance</a></p> 
