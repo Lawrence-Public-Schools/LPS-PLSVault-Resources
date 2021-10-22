@@ -46,7 +46,7 @@
   <div id="LPSPSVaultResources">
     <div class="row">
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/lps/lpsdistrictpolicies/LPS%20Student%20Record%20Procedures%205-11-21.pdf">LPS Student Record Procedures 5-11-21</a></p>
-      <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/lps/lpsdistrictpolicies/LPS%20Student%20Records%20Where%20and%20Who.pdf">LPS Student Records: Where & Who</a>"
+      <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/lps/lpsdistrictpolicies/LPS%20Student%20Records%20Where%20and%20Who.pdf">LPS Student Records: Where & Who</a></p>
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/office/How%20to%20Use%20PLSVault%20-%20Admin%20Portal.pdf">How to use Vault (Admin Portal)</a></p>
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/teacher/How%20to%20Use%20PLSVault%20-%20Teacher%20Portal.pdf">How to use Vault (Teacher Portal)</a></p>
       <p>
