@@ -1,3 +1,12 @@
+function showExampleLog() {
+  let ex = document.getElementById('exampleLog');
+  if (ex.style.display === "none") {
+    ex.style.display = "inline-block";
+  } else {
+    ex.style.display = "none";
+  }
+}
+
 function toggleVAT() {
   let VAT = document.getElementById('lpsVAT');
   if (VAT.style.display === "none") {
