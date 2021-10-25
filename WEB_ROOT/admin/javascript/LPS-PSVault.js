@@ -1,4 +1,4 @@
-function showExampleLog() {
+function toggleExample() {
   let ex = document.getElementById('exampleLog');
   if (ex.style.display === "none") {
     ex.style.display = "inline-block";

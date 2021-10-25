@@ -27,8 +27,9 @@
 <form action="/admin/changesrecorded.white.html" method="POST">
 <div class="box-round" id="demoComments" style="min-width: 600px; min-height: 100px;">
   <h3>Access Log</h3>
-  <button type="button" onclick="showExampleLog">?</button>
   <img id="exampleLog" src="/admin/images/ExampleLog.jpg" width="800" height="120">
+  <button id="exampleBtn" type="button" onclick="toggleExample()">\?</button>
+  
   ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,USERSTRING,RELEASESTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person Accessing,Name and Position of Person Receiving Record;type:html]
   <script type="text/javascript">
     var PurposeValues= [];
