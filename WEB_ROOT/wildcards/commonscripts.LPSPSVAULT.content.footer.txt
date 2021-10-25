@@ -3,7 +3,7 @@
   var $LPSPSVault = ~(studentfrn);
 </script>
 <style>
-  div#LPSPSVaulttarget {
+  #LPSPSVaulttarget {
     width: 1200px;
     height: 300px;
     overflow-y: visible;
@@ -12,13 +12,11 @@
     position: relative;
     z-index: 2;
   }
-
-  iframe#LPSPSVaultlog {
+  #LPSPSVaultlog {
     width: 100%;
     height: 100%;
     border: none;
   }
-
   #LPSVaultHeader.expanded {
     background-color: rgb(163, 191, 204);
   }
@@ -33,27 +31,35 @@
       padding: 10px;
   }
 
-  embed {
-    display: none;
+  div.lps-row {
+    display: flex;
+    flex-direction: row;
   }
-  .display-true {
-    display: inline-block;
+  #LPSPSVaultEmbed {
+    flex: 3 0 auto;
+  }
+  #LPSPSVaultLinks {
+    flex: auto;
+  }
+
+  #VAT {
+    display: none;
+    width: 100%;
   }
 </style>
 <script src="/admin/javascript/LPS-PSVault.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
   <h2 class="toggle expanded" id="LPSVaultHeader"  title="Click here to expand or collapse">LPS PSVault Resources <small>(Click to Expand/Collapse)</small></h2>
-  <div id="LPSPSVaultResources">
-    <div class="row">
+  <div id="LPSPSVaultResources" class="lps-row">
+    <div id="LPSPSVaultLinks" class="lps-col">
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/lps/lpsdistrictpolicies/LPS%20Student%20Record%20Procedures%205-11-21.pdf">LPS Student Record Procedures 5-11-21</a></p>
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/lps/lpsdistrictpolicies/LPS%20Student%20Records%20Where%20and%20Who.pdf">LPS Student Records: Where & Who</a></p>
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/office/How%20to%20Use%20PLSVault%20-%20Admin%20Portal.pdf">How to use Vault (Admin Portal)</a></p>
       <p><a target="_blank" href="https://www.lawrence.k12.ma.us/files/guides/powerschool/teacher/How%20to%20Use%20PLSVault%20-%20Teacher%20Portal.pdf">How to use Vault (Teacher Portal)</a></p>
-      <p>
-        <a id="VATLink" href="javascript:toggleVAT()">Vault Access Table <i>(Click to show)</i></a>
-        <embed id="lpsVAT" src="/admin/images/VaultAccess.pdf" width="1200" height="600">
-      </p>
-      
+      <p><a href="javascript:toggleVAT()">Vault Access Table <i id="VAT-Link">(click to show)</i></a></p>
+    </div>
+    <div id="LPSPSVaultEmbed" class="lps-col"> 
+      <img id="VAT" src="/admin/images/VaultAccess.png" alt="error loading image">
     </div>
   </div>
 </div>
