@@ -44,7 +44,10 @@
 
   #VAT {
     display: none;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>
 <script src="/admin/javascript/LPS-PSVault.js"></script>
