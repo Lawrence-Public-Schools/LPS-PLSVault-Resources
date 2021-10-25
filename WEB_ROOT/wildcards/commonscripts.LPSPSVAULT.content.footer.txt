@@ -30,24 +30,23 @@
   #LPSVaultTable * {
       padding: 10px;
   }
-
   div.lps-row {
     display: flex;
     flex-direction: row;
   }
-  #LPSPSVaultEmbed {
-    flex: 3 0 auto;
-  }
   #LPSPSVaultLinks {
-    flex: auto;
+    flex: 0 0 auto; 
   }
-
+  #LPSPSVaultEmbed {
+    flex: 0 5 auto;
+    max-width: 1600px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
   #VAT {
     display: none;
     max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto; 
   }
 </style>
 <script src="/admin/javascript/LPS-PSVault.js"></script>
