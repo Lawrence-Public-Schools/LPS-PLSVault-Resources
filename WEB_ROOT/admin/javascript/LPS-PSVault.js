@@ -7,10 +7,10 @@ if ($testURL.indexOf("admin/students/studentpages/plsvault_students.html") !== -
 function AddLPSPSVaultResources() {
    $j("#LPS-PSVaultCustomhiddentable h2").insertBefore("#content-main > div.box-round")
    $j("#LPSPSVaultResources").insertBefore("#content-main > div.box-round")
-      $j('#content-main > h2:first').each(function(){
-      hideCollapseClasses($j(this));
-      hideCollapseText($j(this));
-      hideCollapseTarget($j(this));
+   $j('#content-main > h2:first').each(function(){
+       hideCollapseClasses($j(this));
+       hideCollapseText($j(this));
+       hideCollapseTarget($j(this));
    });
    $j("#content-main > div.box-round").insertBefore("#LPS-plsvault_students")
    $j("#LPS-PSVaultCustomhiddentable").remove();
@@ -18,7 +18,7 @@ function AddLPSPSVaultResources() {
    $j("#LPSPSVaultResources").after($Vframe);
 }
 function RemoveLPSPSVaultResources() {
-        $j("#LPS-PSVaultCustomhiddentable").remove();
+   $j("#LPS-PSVaultCustomhiddentable").remove();
 }
 
 function toggleVAT() {
