@@ -11,7 +11,7 @@
   #demoComments > div > table > tbody > tr > td > button.deleteRow { display:none }
 
   #exampleLog {
-    display: none;
+    display: block;
     max-width: 75%;
     height: auto;
     margin-left: auto;
@@ -22,7 +22,7 @@
 <div class="box-round" id="demoComments" style="min-width: 600px; min-height: 100px;">
   <div class="row">
     <div class="col">
-      <h3>Access Log<button id="hintBtn" type="button">Show Example Access Log</button></h3>
+      <h3>Access Log</h3>
       <img id="exampleLog" src="/admin/images/ExampleLog.jpg" alt="error loading image">
       ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,USERSTRING,RELEASESTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person Accessing,Name and Position of Person Receiving Record;type:html]
     </div>
@@ -41,17 +41,6 @@
   tlistText2StaticTextAllowNew("PURPOSE");
   tlistText2StaticTextAllowNew("USERSTRING");
   tlistText2StaticTextAllowNew("RELEASESTRING");
-  
-  $j('#hintBtn').on("click", function () {
-    let $ex = $j('#exampleLog');
-    if ($ex.css("display") === "none") {
-      $ex.css("display","block");
-      $j(this).text("Hide Example Access Log");
-    } else {
-      $ex.css("display","none");
-      $j(this).text("Show Example Access Log");
-    }
-  });
 </script>
 
 <div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
