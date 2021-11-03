@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- start right frame -->
-<head>
-
-
 <title>PLS Vault Access Log</title>
 ~[wc:commonscripts]
 <script src="/scripts/tlistCustomization.js"></script>
 <link href="/images/css/screen.css" rel="stylesheet" media="screen">
 <link href="/images/css/print.css" rel="stylesheet" media="print">
 <style>
-  div#demoComments > div > table > tbody > tr > td > input.deleteCB { display:none }
-  div#demoComments > div > table > tbody > tr > td > button.undoDelRow { display:none }
-  div#demoComments > div > table > tbody > tr > td > button.deleteRow { display:none }
+  #demoComments > div > table > tbody > tr > td > input.deleteCB { display:none }
+  #demoComments > div > table > tbody > tr > td > button.undoDelRow { display:none }
+  #demoComments > div > table > tbody > tr > td > button.deleteRow { display:none }
+
+  #exampleLog {
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 </style>
-</head>
-
-<body>
-<!--Future Requests-->
-<!--Menu option-->
-<!--Auto Detect Name and position from PS-->
-
-<!-- start of content and bounding box -->
-<!-- Comment Form -->
 <form action="/admin/changesrecorded.white.html" method="POST">
 <div class="box-round" id="demoComments" style="min-width: 600px; min-height: 100px;">
-     ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,USERSTRING,RELEASESTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person Accessing,Name and Position of Person Receiving Record;type:html]
-     <script type="text/javascript">
-        var PurposeValues= [];
-        PurposeValues.push(['ADD','Adding information to the student record']);
-        PurposeValues.push(['REQ','Responding to a request for records']);
-        PurposeValues.push(['REV','Reviewing student record']);
-        PurposeValues.push(['OTHER','Other']);
-        tlistText2DropDownValNamePair('PURPOSE',PurposeValues);
-        tlistText2StaticTextAllowNew("ACCESSDATE");
-        tlistText2StaticTextAllowNew("ACCESSRECORD");
-        tlistText2StaticTextAllowNew("PURPOSE");
-        tlistText2StaticTextAllowNew("USERSTRING");
-        tlistText2StaticTextAllowNew("RELEASESTRING");
-        
-     </script>
+  <div class="row">
+    <div class="col">
+      <h3>Access Log</h3>
+      <img id="exampleLog" src="/admin/images/ExampleLog.jpg" alt="error loading image">
+      ~[tlist_child:STUDENTS.U_PLSVAULT_COMMENTS.U_PLSVAULT_ACCESSLOG;displaycols:ACCESSDATE,ACCESSRECORD,PURPOSE,USERSTRING,RELEASESTRING;fieldNames:Date,Records Accessed,Purpose of Access,Name and Position of Person Accessing,Name and Position of Person Receiving Record;type:html]
+    </div>
+  </div>
 </div>
+
+<script type="text/javascript">
+  var PurposeValues= [];
+  PurposeValues.push(['ADD','Adding information to the student record']);
+  PurposeValues.push(['REQ','Responding to a request for records']);
+  PurposeValues.push(['REV','Reviewing student record']);
+  PurposeValues.push(['OTHER','Other']);
+  tlistText2DropDownValNamePair('PURPOSE',PurposeValues);
+  tlistText2StaticTextAllowNew("ACCESSDATE");
+  tlistText2StaticTextAllowNew("ACCESSRECORD");
+  tlistText2StaticTextAllowNew("PURPOSE");
+  tlistText2StaticTextAllowNew("USERSTRING");
+  tlistText2StaticTextAllowNew("RELEASESTRING");
+</script>
+
 <div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
 </form>
-<!-- end of content of bounding box -->
-
-
-
-</body>
-</html><!-- end right frame -->
+</html>
