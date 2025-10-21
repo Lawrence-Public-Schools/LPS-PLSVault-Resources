@@ -1,4 +1,4 @@
-if ($testURL.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
+if ($testURL.indexOf("admin/students/plsvault_students.html") !== -1) {
   $j(document).ready(AddLPSPSVaultResources);
 } else {
   $j(document).ready(RemoveLPSPSVaultResources);
@@ -14,7 +14,7 @@ function AddLPSPSVaultResources() {
    });
    $j("#content-main > div.box-round").insertBefore("#LPS-plsvault_students")
    $j("#LPS-PSVaultCustomhiddentable").remove();
-   $Vframe = '<div id="LPSPSVaulttarget"><iframe id="LPSPSVaultlog" src="/admin/students/studentpages/LPS-plsvault_students.html?frn='+$LPSPSVault+'" frameborder="0"></iframe></div>'
+   $Vframe = '<div id="LPSPSVaulttarget"><iframe id="LPSPSVaultlog" src="/admin/students/LPS-plsvault_students.html?frn='+$LPSPSVault+'" frameborder="0"></iframe></div>'
    $j("#LPSPSVaultResources").after($Vframe);
 }
 function RemoveLPSPSVaultResources() {
