@@ -1,4 +1,4 @@
-if ($testURL.indexOf("admin/students/plsvault_students.html") !== -1) {
+if ($testURL.indexOf("admin/students/studentpages/plsvault_students.html") !== -1) {
   $j(document).ready(AddLPSPSVaultResources);
 } else {
   $j(document).ready(RemoveLPSPSVaultResources);
