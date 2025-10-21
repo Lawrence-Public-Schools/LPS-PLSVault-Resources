@@ -1,6 +1,6 @@
 <!-- create a hidden table with added rows -->
 <script type="text/javascript">
-  var $LPSPSVault = ~(studentfrn);
+  var $LPSPSVault = "~(studentfrn)";
 </script>
 <style>
   #LPSPSVaulttarget {
@@ -49,7 +49,7 @@
     height: auto; 
   }
 </style>
-<script src="/admin/javascript/LPS-PSVault.js"></script>
+<script defer src="/admin/javascript/LPS-PSVault.js"></script>
 <div id="LPS-PSVaultCustomhiddentable" style="display: none;">
   <h2 class="toggle expanded" id="LPSVaultHeader"  title="Click here to expand or collapse">LPS PSVault Resources <small>(Click to Expand/Collapse)</small></h2>
   <div id="LPSPSVaultResources" class="lps-row">
